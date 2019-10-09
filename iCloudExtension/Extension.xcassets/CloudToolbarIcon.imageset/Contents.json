@@ -2,52 +2,13 @@
   "images" : [
     {
       "idiom" : "mac",
+      "filename" : "cloud-1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "mac",
-      "scale" : "1x",
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "light"
-        }
-      ]
-    },
-    {
-      "idiom" : "mac",
-      "scale" : "1x",
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ]
-    },
-    {
-      "idiom" : "mac",
-      "filename" : "cloud-1.png",
+      "filename" : "cloud-2.png",
       "scale" : "2x"
-    },
-    {
-      "idiom" : "mac",
-      "scale" : "2x",
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "light"
-        }
-      ]
-    },
-    {
-      "idiom" : "mac",
-      "scale" : "2x",
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ]
     }
   ],
   "info" : {
