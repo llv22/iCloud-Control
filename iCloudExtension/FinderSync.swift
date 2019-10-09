@@ -24,7 +24,7 @@ class FinderSync: FIFinderSync {
     }
     
     override var toolbarItemImage: NSImage {
-        return NSImage(named: "CloudToolbarIcon")!
+        return NSImage(named: NSImage.Name(rawValue: "CloudToolbarIcon"))!
     }
     
     override func menu(for menuKind: FIMenuKind) -> NSMenu {
@@ -65,7 +65,7 @@ class FinderSync: FIFinderSync {
             }
         }
         
-        let pb = NSPasteboard.general()
+        let pb = NSPasteboard.general
         pb.clearContents()
         
         pb.writeObjects(urls as [NSPasteboardWriting])
